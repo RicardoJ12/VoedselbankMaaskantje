@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.customers-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.action-button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.addcustomer {
+  text-align: right;
+  background-color: #c0e599;
+  color: black;
+  padding: 6px 12px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 8px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.delete-button {
+  background-color: #f44336;
+}
+
+.edit-button {
+  background-color: #c0e599;
+}
+
+.add-button,
+.logout-button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.add-button {
+  background-color: #008cba;
+}
+
+.logout-button {
+  background-color: #555555;
+}

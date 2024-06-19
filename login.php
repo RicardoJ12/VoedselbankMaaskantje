@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Admin Login</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
+    <div class ="container">
+    
     <h2>Admin Login</h2>
     <form action="login.php" method="post">
         <label for="username">Username:</label>
@@ -15,6 +18,7 @@
         <br><br>
         <input type="submit" value="Login">
     </form>
+</div>
 </body>
 </html>
 
@@ -23,9 +27,9 @@ session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $servername = "localhost";
-    $username = "root"; // vervang door je eigen database gebruikersnaam
-    $password = ""; // vervang door je eigen database wachtwoord
-    $dbname = "mydb"; // vervang door je eigen database naam
+    $username = "root";
+    $password = "";
+    $dbname = "mydb"; 
 
     try {
         $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
