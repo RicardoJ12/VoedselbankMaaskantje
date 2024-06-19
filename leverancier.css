@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: arial;
+}
+
+.navbar {
+  width: 100%;
+  padding: 1rem;
+  background-color: #7f7f7f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar img {
+  width: 6rem;
+  border-radius: 20px;
+}
+
+.navbar .buttonsContainer a {
+  margin-right: 2rem;
+  width: max-content;
+  background-color: #7f5689;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.navbar .buttonsContainer a:hover {
+  color: #7f7f7f;
+}
+
+.container {
+  margin: 2rem;
+}
+
+.suppliers {
+  width: 100%;
+  border-spacing: 0;
+  border: 1px solid #7f7f7f;
+}
+.suppliers thead {
+  background-color: #7f7f7f;
+  color: #ffffff;
+  font-weight: 600;
+}
+.suppliers thead * {
+  border-right: 1px solid lightgray;
+}
+.suppliers td {
+  padding: 1rem;
+}
+.suppliers tbody td {
+  border-left: 1px solid #7f7f7f;
+}
+
+.suppliers .options {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 2px;
+}
+.suppliers td i {
+  cursor: pointer;
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  width: 20%;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 4px;
+  background-color: #c4c4c4;
+  color: #000000;
+  border: none;
+}
+
+.addButton {
+  padding: 1rem;
+  background-color: #c4c4c4;
+  color: #000000;
+  border: none;
+  margin-left: auto;
+  margin-bottom: 20px;
+  display: block;
+  width: max-content;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+input::placeholder {
+  color: #000000;
+}
+
+.submit {
+  padding: 1rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #e0e0e0;
+}
+
+form {
+  width: max-content;
+}
