@@ -52,6 +52,9 @@ try {
     <title>Producten toevoegen aan voedselpakket</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="product_toevoegen.css">
+
+
 </head>
 <body>
 <nav>
